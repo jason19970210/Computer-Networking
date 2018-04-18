@@ -239,9 +239,18 @@ _d_<sub>end-to-end</sub> = N．(_d_<sub>proc</sub> + _d_<sub>trans</sub> + _d_<s
 #### 2.1.2 Process Communication
 > A **sending process** creates and sends message into the network, a **receiving process** receives these messgae and possibly responds by sending message back.
 - Client & Server Processes
+    - The process that initiates the communication is labeled as **client**
+    - The process that waits to be contacted to begin the session is **server**
 - The Interface Between the Process & the Computer Network
+    - Socket : A process sends messages into, and receives messages from, the network through a software interface.
+    - Application Programming Interface (API) : between application and the network
 - Addressing Processes
+    - IP Address : 32-bit quanity uniquely identifying the host
 #### 2.1.3 Transport Services Available to Applications
+- Reliable Data Transfer
+- Throughput
+- Timing
+- Security
 #### 2.1.4 Transport Services Provided by the Internet
 #### 2.1.5 Application-Layer Protocols
 #### 2.1.6 Network Applications Converted This Book
