@@ -260,3 +260,17 @@ _d_<sub>end-to-end</sub> = N．(_d_<sub>proc</sub> + _d_<sub>trans</sub> + _d_<s
 #### 2.4.3 Mail Message Format
 #### 2.4.4 Mail Access Perotocols
 ### 2.5 DNS - The Internet's Dictionary Service
+#### 2.5.1 Service Provided by DNS
+#### 2.5.2 Overview of How DNS WOrks
+#### 2.5.3 DNS Record & Messages
+### 2.6 Peer-to-Peer Application (v6)
+#### 2.6.1 P2P File Distribution
+#### 2.6.2 Distributed Hash Tables (DHTs)
+### 2.6 Video Streaming & Content Distribution Networks (v7)
+#### 2.6.1 Internet Video
+#### 2.6.2 HTTP Streaming & DASH
+#### 2.6.3 Content Distribution Networks
+#### 2.6.4 Case Studies : Netflix, Youtube, Kankan
+### 2.7 Socket Programming : Creating Network Application
+#### Socket Programming with UDP
+#### Socket Programming with TCP 
