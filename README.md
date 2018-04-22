@@ -252,12 +252,19 @@ _d_<sub>end-to-end</sub> = N．(_d_<sub>proc</sub> + _d_<sub>trans</sub> + _d_<s
 - Timing
 - Security
 #### 2.1.4 Transport Services Provided by the Internet
+- TCP Services
+- UDP Services
+- Services Not Provided by Internet Transport Protocols
 #### 2.1.5 Application-Layer Protocols
 #### 2.1.6 Network Applications Converted This Book
 ### 2.2 The Web & The HTTP
 #### 2.2.1 Overview of HTTP
 #### 2.2.2 Non-Persistent & Persistent Connection
+- HTTP with Non-Persistent Connections
+- HTTP with Persistent Connection
 #### 2.2.3 HTTP Message Format
+- HTTP Request Message
+- HTTP Response Message
 #### 2.2.4 User-Server Interaction Cookies
 #### 2.2.5 Web Caching
 #### 2.2.6 The Conditional GET
@@ -268,10 +275,28 @@ _d_<sub>end-to-end</sub> = N．(_d_<sub>proc</sub> + _d_<sub>trans</sub> + _d_<s
 #### 2.4.2 Compartion with HTTP
 #### 2.4.3 Mail Message Format
 #### 2.4.4 Mail Access Perotocols
+- POP3
+- IMAP
+- Web-Based E-Mail
 ### 2.5 DNS - The Internet's Dictionary Service
 #### 2.5.1 Service Provided by DNS
+- Host aliasing
+- Mail server aliasing
+- Load distribution
 #### 2.5.2 Overview of How DNS WOrks
+- #### Centralized Design
+    - A single point of failure
+    - Traffic Volume
+    - Distant centralized database
+    - Maintenance
+- #### A Distributed, Hierarchical Database
+    - Root DNS servers
+    - Top-Level domain ( TLD ) servers
+    - Authoritative DNS servers
+    - DNS Caching
 #### 2.5.3 DNS Record & Messages
+- DNS Messages
+- Inserting Records into DNS Database
 ### 2.6 Peer-to-Peer Application (v6)
 #### 2.6.1 P2P File Distribution
 #### 2.6.2 Distributed Hash Tables (DHTs)
