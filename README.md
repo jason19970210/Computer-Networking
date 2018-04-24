@@ -181,7 +181,7 @@ The resources needed along a path to provide for communication between the end s
         - If packets arrive periodically, each packet arrives every L/R seconds, then every packet will have no queuing delay.
         - If packets arrive in brusts but periodically, there can be a significant average queuing delay.
             - Suppose _N_ packets arrive simultaneously every (L/R)．N seconds, the first packet will be no queuing delay to transmit, the second packet transmitted with a L/R (in seconds) of queuing delay.
-            - For general, the _N_th packet transmitted has a queuing delay of (_N_ -1)．L/R seconds 
+            - For general, the _N_ th packet transmitted has a queuing delay of (_N_ -1)．L/R seconds 
 
 
     ![7](https://raw.githubusercontent.com/jason19970210/MarkdownPhotos/master/7.jpg)
