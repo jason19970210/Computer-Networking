@@ -222,7 +222,7 @@ _d_<sub>end-to-end</sub> = N．(_d_<sub>proc</sub> + _d_<sub>trans</sub> + _d_<s
             - Web-Based email : Gmail, Yahoo Mail
             - Social Networking : Facebook, Twitter
     - Client : Server requests from many other hosts
-    > Client do not direct connect to each other
+        > Client do not direct connect to each other
 - P2P Archtecture
     Minimal  (or no) reliance on dedicated servers in data center. The application exploits direct communication between pairs of intermittenly connected hots, called peers. Communicate without passing through dedicated server.
     - Features
