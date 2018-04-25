@@ -311,7 +311,7 @@ _d_<sub>end-to-end</sub> = N．(_d_<sub>proc</sub> + _d_<sub>trans</sub> + _d_<s
         - ex. (google.com., ns1.google.com, CNAME)
     - Type = MX
         - Value is cononcial hostname of a  `mail server` that has an alias hostname Name.
-        - ex. (cgu.edu.tw., sign.mail.cgu.edu.tw., )
+        - ex. (cgu.edu.tw., sign.mail.cgu.edu.tw., MX)
 - DNS Messages
 - Inserting Records into DNS Database
 ### 2.6 Peer-to-Peer Application (v6)
