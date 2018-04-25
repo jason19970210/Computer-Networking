@@ -283,7 +283,7 @@ _d_<sub>end-to-end</sub> = N．(_d_<sub>proc</sub> + _d_<sub>trans</sub> + _d_<s
 - Host aliasing
 - Mail server aliasing
 - Load distribution
-#### 2.5.2 Overview of How DNS WOrks
+#### 2.5.2 Overview of How DNS Works
 - #### Centralized Design
     - A single point of failure
     - Traffic Volume
@@ -295,6 +295,15 @@ _d_<sub>end-to-end</sub> = N．(_d_<sub>proc</sub> + _d_<sub>trans</sub> + _d_<s
     - Authoritative DNS servers
     - DNS Caching
 #### 2.5.3 DNS Record & Messages
+[DNS `dig` Google Toobox](https://toolbox.googleapps.com/apps/dig/)
+    A resourse record is a 4-tuple that contains the following fields : 
+> ( Name, Value, Type, TTL )
+>> TTL : Time To Live, usually ignored
+- Meanings
+    - Type = A
+    - Type = NS
+    - Type = CNAME
+    - Type = MX
 - DNS Messages
 - Inserting Records into DNS Database
 ### 2.6 Peer-to-Peer Application (v6)
