@@ -301,9 +301,17 @@ _d_<sub>end-to-end</sub> = N．(_d_<sub>proc</sub> + _d_<sub>trans</sub> + _d_<s
     > TTL : Time To Live, usually ignored
 - Meanings
     - Type = A
+        - Name is a `hostname` and Value is the `IP Address` for the hostname
+        - ex. (www.example.com, 93.184.216.34, A)
     - Type = NS
+        - Name is a `Domain` and Value is the `hostname of an authoritative DNS server` that knows how to obtain the IP addresses for hosts in domain.
+        - ex. (example.com, **dns**.icann.org. , NS)
     - Type = CNAME
+        - Value is a `cononcial hostname for the alias hostname Name`.
+        - ex. (google.com., ns1.google.com, CNAME)
     - Type = MX
+        - Value is cononcial hostname of a  `mail server` that has an alias hostname Name.
+        - ex. (cgu.edu.tw., sign.mail.cgu.edu.tw., )
 - DNS Messages
 - Inserting Records into DNS Database
 ### 2.6 Peer-to-Peer Application (v6)
