@@ -297,7 +297,7 @@ _d_<sub>end-to-end</sub> = N．(_d_<sub>proc</sub> + _d_<sub>trans</sub> + _d_<s
 #### 2.5.3 DNS Record & Messages
 [DNS `dig` Google Toobox](https://toolbox.googleapps.com/apps/dig/)  
     A resourse record is a 4-tuple that contains the following fields : </br>
-**( Name, Value, Type, TTL )**
+**( Name, Value, Type, TTL )** </br>
     > TTL : Time To Live, usually ignored
 - Meanings
     - Type = A
