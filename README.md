@@ -298,6 +298,7 @@ _d_<sub>end-to-end</sub> = N．(_d_<sub>proc</sub> + _d_<sub>trans</sub> + _d_<s
 - DNS Messages
 - Inserting Records into DNS Database
 ### 2.6 Peer-to-Peer Application (v6)
+> [P2P 網絡的拓墣架構](http://www.intsci.ac.cn/users/luojw/P2P/ch02.html)
 #### 2.6.1 P2P File Distribution
 #### 2.6.2 Distributed Hash Tables (DHTs)
 
