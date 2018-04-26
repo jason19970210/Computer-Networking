@@ -307,7 +307,7 @@ _d_<sub>end-to-end</sub> = N．(_d_<sub>proc</sub> + _d_<sub>trans</sub> + _d_<s
         - Name is a `Domain (網域名稱)` and Value is the `hostname of an authoritative DNS server` that knows how to obtain the IP addresses for hosts in domain.
         - ex. (example.com, **dns**.icann.org. , NS)
     - Type = CNAME
-        - Value is a `cononcial hostname for the alias hostname Name (主機別名)`.
+        - Value is a `cononcial hostname (正規主機名稱) for the alias hostname Name (主機別名)`.
         - ex. (google.com., ns1.google.com, CNAME)
     - Type = MX
         - Value is cononcial hostname of a  `mail server` that has an alias hostname Name (主機別名為`Name`的 mail server 的 正規名稱).
